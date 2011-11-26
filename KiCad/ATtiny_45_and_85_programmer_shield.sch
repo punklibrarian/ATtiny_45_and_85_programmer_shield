@@ -1,0 +1,169 @@
+EESchema Schematic File Version 1
+LIBS:SparkFun,.\ATtiny_45_and_85_programmer_shield-cache-cache
+EELAYER 23 0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title "ATtiny_45_and_85_programmer_shield.sch"
+Date "26 NOV 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7200 6650 0 100 ~
+ATtiny 45 and 85 Programmer Shield
+Text Notes 10300 7450 0 100 ~
+1.0
+$Comp
+L C_CAP_POL C1
+U 1 1 4ED097AE
+P 3000 4350
+F 0 "C1" H 3040 4374 70 0000 L B
+F 1 "10 uF" V 2865 4190 70 0000 L B
+	1    3000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME1
+U 1 1 4ED097AE
+P 900 7750
+	1    900  7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FRAME_FRAME-LETTER FRAME1
+U 1 1 4ED097AE
+P 6700 7750
+	1    6700 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND_GND GND1
+U 1 1 4ED097AE
+P 3600 4550
+F 0 "GND" H 3501 4450 70 0000 L B
+	1    3600 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND_GND GND2
+U 1 1 4ED097AE
+P 5600 3850
+F 0 "GND" H 5501 3750 70 0000 L B
+	1    5600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND_GND GND3
+U 1 1 4ED097AE
+P 4300 6250
+F 0 "GND" H 4200 6150 70 0000 L B
+	1    4300 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_LED LED1
+U 1 1 4ED097AE
+P 3600 5850
+F 0 "LED1" V 3740 5670 70 0000 L B
+F 1 "5mm LED" V 3825 5670 70 0000 L B
+	1    3600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_RESISTOR R1
+U 1 1 4ED097AE
+P 4000 6250
+F 0 "R1" H 3850 6309 70 0000 L B
+F 1 "220ohm 5%" H 3650 6121 70 0000 L B
+	1    4000 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_ATTINY45 U$1
+U 1 1 4ED097AE
+P 6300 3650
+F 0 "ATTINY45DIP8" H 5800 3251 70 0000 L B
+F 1 "U$1" H 5800 4050 70 0000 L B
+	1    6300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun_5V U$2
+U 1 1 4ED097AE
+P 5700 3350
+F 0 "5V" H 5660 3490 70 0000 L B
+	1    5700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun_5V U$3
+U 1 1 4ED097AE
+P 3700 4250
+F 0 "5V" H 3660 4390 70 0000 L B
+	1    3700 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun_OSHW-LOGO U$4
+U 1 1 4ED097AE
+P 8600 5850
+	1    8600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L U_ARDUINO_SHIELD U1
+U 1 1 4ED097AE
+P 4200 4050
+F 0 "U1" H 3821 4880 70 0000 L B
+F 1 "ARDUINO_SHIELDLABEL" H 3850 3150 70 0000 L B
+	1    4200 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+6800 3350 6900 3350
+Wire Wire Line
+6900 3350 6900 3050
+Wire Wire Line
+6900 3050 5100 3050
+Wire Wire Line
+5100 3050 5100 4550
+Wire Wire Line
+5100 4550 4700 4550
+Wire Wire Line
+4700 4650 7000 4650
+Wire Wire Line
+7000 4650 7000 3450
+Wire Wire Line
+7000 3450 6800 3450
+Wire Wire Line
+6800 3550 6900 3550
+Wire Wire Line
+6900 3550 6900 4750
+Wire Wire Line
+6900 4750 5300 4750
+Wire Wire Line
+5300 4750 4700 4750
+Wire Wire Line
+3600 5750 3600 5550
+Wire Wire Line
+3600 5550 5300 5550
+Wire Wire Line
+5300 5550 5300 4750
+Connection ~ 5300 4750
+Wire Wire Line
+3000 4550 3000 4750
+Wire Wire Line
+3000 4750 3700 4750
+Wire Wire Line
+3700 4050 3000 4050
+Wire Wire Line
+3000 4050 3000 4250
+Wire Wire Line
+3600 6050 3600 6250
+Wire Wire Line
+3600 6250 3800 6250
+$EndSCHEMATC
