@@ -17,8 +17,8 @@ Features:
 
 In this repository you will find the gerber files for BatchPCB (http://batchpcb.com), along with project (.pro), board (.brd) 
 and schematic (.sch) files for this shield in the 'EAGLE and 'KiCad' folders. Inside the 'EAGLE' folder you will find a folder
-called 'eagleUp' which contains a 3D model of the shield in SKP format **(It also has the eagleUp files themselves which includes
-a PNG that can be used for home etching of the shield)**.
+called 'eagleUp' which contains a 3D model of the shield in SKP format **(It also has the eagleUp files themselves which includes 
+a PNG that can be used for home etching of the shield).**
 
 **I release this design WITHOUT ANY WARRANTY. I created this for fun. Please check the design before using as I am not 
 responsible if it fries something on your Arduino board.**
@@ -56,6 +56,19 @@ As an example try uploading the Blink sketch to test the shield and if it all wo
  *  Upload the sketch.
 
 The shield has a built in LED connected to the ATtiny's pin 0 for convenience.
+
+BILL OF MATERIALS
+-----------------
+
+4 x 1k 1/6 watt resistor (http://littlebirdelectronics.com/products/resistor-1k-ohm-1-6-watt-pth)
+1 x ATtiny 45/85 µC (http://littlebirdelectronics.com/products/avr-8-pin-20mhz-8k-4ad-attiny85)
+1 x 8-pin DIP socket (http://littlebirdelectronics.com/products/dip-sockets-solder-tail-8pin)
+1 x 10mm Blue LED (http://littlebirdelectronics.com/products/diffused-led-blue-10mm)
+1 x 5mm Green LED (http://littlebirdelectronics.com/products/basic-led-5mm-green)
+1 x 5mm Red LED (http://littlebirdelectronics.com/products/basic-led-5mm-red)
+1 x 5mm Yellow LED (http://littlebirdelectronics.com/products/basic-led-5mm-yellow)
+1 x 10uF Capacitor (http://littlebirdelectronics.com/products/10uf-25v-rb-electrolytic-capacitor-105oc)
+1 x Break Away Headers - Straight (http://littlebirdelectronics.com/products/break-away-headers-straight)
 
 DISTRIBUTION
 ------------
