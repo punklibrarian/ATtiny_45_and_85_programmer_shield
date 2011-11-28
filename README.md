@@ -70,6 +70,8 @@ BILL OF MATERIALS
  * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/10uf-25v-rb-electrolytic-capacitor-105oc)
  * 1 x Break Away Headers - Straight (http://littlebirdelectronics.com/products/break-away-headers-straight)
 
+You can also find this design on BatchPCB ready to add to your cart: http://batchpcb.com/index.php/Products/73464
+
 DISTRIBUTION
 ------------
 The specific terms of distribution of this project are governed by the license referenced below.
