@@ -55,7 +55,11 @@ As an example try uploading the Blink sketch to test the shield and if it all wo
  * Select “ATtiny45 (w/ Arduino as ISP)” or “ATtiny85 (w/ Arduino as ISP)” from the **Tools > Board** menu (leave the serial port set to that of your Arduino board).
  *  Upload the sketch.
 
-The shield has a built in LED connected to the ATtiny's pin 0 for convenience.
+**You can also program ATtiny 44 & 84 chips by using jumpers between the DIP socket and the correct pins on the chip. I will include a 14 pin DIP socket 
+in the next revision. You will need to get the 44 and 84 hardware definitions from here: https://github.com/damellis/attiny/tree/Arduino1 and follow 
+instructions found here: http://hlt.media.mit.edu/?p=1695**
+
+The shield has a built in LED connected to the ATtiny45/85's pin 0 for convenience.
 
 BILL OF MATERIALS
 -----------------
@@ -67,7 +71,7 @@ BILL OF MATERIALS
  * 1 x 5mm Green LED (http://littlebirdelectronics.com/products/basic-led-5mm-green)
  * 1 x 5mm Red LED (http://littlebirdelectronics.com/products/basic-led-5mm-red)
  * 1 x 5mm Yellow LED (http://littlebirdelectronics.com/products/basic-led-5mm-yellow)
- * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/10uf-25v-rb-electrolytic-capacitor-105oc)
+ * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/electrolytic-decoupling-capacitors-10uf-25v)
  * 1 x Break Away Headers - Straight (http://littlebirdelectronics.com/products/break-away-headers-straight)
 
 You can also find this design on BatchPCB ready to add to your cart: http://batchpcb.com/index.php/Products/73464
