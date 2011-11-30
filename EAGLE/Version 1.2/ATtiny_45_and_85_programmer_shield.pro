@@ -1,6 +1,6 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/jamie/github/ATtiny_45_and_85_programmer_shield/EAGLE/ATtiny_45_and_85_programmer_shield-edit.brd
+Job           : /Users/jamie/github/ATtiny_45_and_85_programmer_shield/EAGLE/ATtiny_45_and_85_programmer_shield.brd
 
 Start at      : 00:31:54 (27/11/11)
 End at        : 00:31:54 (27/11/11)
