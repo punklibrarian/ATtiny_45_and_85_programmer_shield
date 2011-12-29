@@ -72,7 +72,7 @@ BILL OF MATERIALS
  * 1 x 5mm Red LED (http://littlebirdelectronics.com/products/basic-led-5mm-red)
  * 1 x 5mm Yellow LED (http://littlebirdelectronics.com/products/basic-led-5mm-yellow)
  * 1 x 10uF Capacitor (http://littlebirdelectronics.com/products/electrolytic-decoupling-capacitors-10uf-25v)
- * 1 x Break Away Headers - Straight (http://littlebirdelectronics.com/products/break-away-headers-straight)
+ * 2 x Female Header - 1X4-pin, Straight (http://littlebirdelectronics.com/products/0100-254-mm-female-header-1x4-pin-straight)
 
 You can also find this design on BatchPCB ready to add to your cart: http://batchpcb.com/index.php/Products/73464
 
